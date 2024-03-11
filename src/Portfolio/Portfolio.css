@@ -1,0 +1,39 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+
+  padding: 100px 0;
+  background-color: var(--offWhite);
+  width: 100%;
+
+  z-index: 1;
+}
+
+.portfolio h1 {
+  margin-left: 80px;
+}
+
+.portfolio .projects {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+  padding-top: 20px;
+  margin: 0 80px;
+}
+
+.portfolio .projects img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--green);
+}
+
+.portfolio .projects h2 {
+  margin-left: 20px;
+}
+
+.portfolio .projects img:hover {
+  cursor: pointer;
+}

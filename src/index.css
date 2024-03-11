@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --tan: #ddaf94;
+  --blush: #e8cebf;
+  --green: #266150;
+  --highlight: #4f4846;
+  --offWhite: #fdf8f5;
+  --white: #ede2dc;
+}
+
+html * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: var(--highlight);
+  font-family: Poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wave,
+.wave2,
+.wave3 {
+  position: relative;
+}
+
+.wave::before {
+  background: url(Images/wave.svg);
+  height: 750px;
+}
+
+.wave2::before {
+  background: url(Images/wave2.svg);
+  height: 500px;
+}
+
+.wave3::before {
+  background: url(Images/wave.svg);
+  height: 1000px;
+}
+
+.wave::before,
+.wave2::before,
+.wave3::before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.home .info h2,
+.about h2 {
+  font-size: 30px;
+}
+
+.home .info h1,
+.about h1,
+.portfolio h1,
+.contact h1 {
+  font-size: 60px;
+}
+
+.home .info p,
+.about p {
+  font-size: 16px;
+}

@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+
+  background-color: var(--offWhite);
+  color: var(--highlight);
+
+  height: 100px;
+  width: 100%;
+
+  z-index: 999;
+}
+
+.nav h2 {
+  margin-left: 80px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 80px;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: var(--highlight);
+}
+
+.nav ul li:last-child a {
+  color: var(--offWhite);
+  width: 100px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: var(--green);
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 20px;
+
+  padding-top: 100px;
+  background-color: var(--white);
+  height: calc(100vh - 100px);
+  width: 100%;
+
+  z-index: 1;
+}
+
+.about *:not(span) {
+  margin: 0 80px;
+}
+
+.about button {
+  width: 200px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: var(--offWhite);
+  background-color: var(--green);
+}
+
+.about .dev {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+.about .dev * {
+  margin: 0;
+}
+.about .dev svg {
+  height: 40px !important;
+  width: 40px !important;
+}

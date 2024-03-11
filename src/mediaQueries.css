@@ -1,0 +1,167 @@
+@media screen and (max-width: 720px) {
+  .portfolio .projects {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding-top: 40px;
+    margin: 0 20px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    background-color: var(--offWhite);
+    color: var(--highlight);
+
+    height: 50px;
+    width: 100%;
+  }
+
+  .nav h2 {
+    margin-left: 10px;
+  }
+
+  .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  .nav ul li {
+    list-style: none;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: var(--highlight);
+    font-size: 12px;
+  }
+
+  .nav ul li:last-child a {
+    color: var(--offWhite);
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: var(--green);
+  }
+
+  span {
+    color: var(--green);
+  }
+
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 0 0 0;
+    background-color: var(--offWhite);
+    height: calc(100vh - 100px);
+    width: 100%;
+  }
+
+  .home .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .home .picture {
+    margin-right: 20px;
+  }
+
+  .home .info h2,
+  .about h2,
+  .contact h2 {
+    font-size: 15px;
+  }
+
+  .home .info h1,
+  .about h1,
+  .portfolio h1,
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .home .info p,
+  .about p {
+    font-size: 16px;
+  }
+
+  .home .info .icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .home .info .icons i {
+    font-size: 30px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 50px 0;
+    background-color: var(--white);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about *:not(span) {
+    margin: 0 20px;
+  }
+
+  .about button {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--offWhite);
+    background-color: var(--green);
+  }
+
+  .portfolio {
+    gap: 20px;
+    padding: 80px 0;
+    justify-content: center;
+  }
+
+  .portfolio h1 {
+    margin: 0 auto;
+  }
+
+  .portfolio .projects img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .portfolio .projects h2 {
+    text-align: center;
+  }
+
+  .contact {
+    padding: 100px 0;
+  }
+
+  .contact h1 {
+    align-self: center;
+  }
+
+  .contact .details {
+    width: 300px;
+    padding: 60px 0;
+  }
+
+  .contact .details h2 {
+    margin-bottom: 25px;
+  }
+}
