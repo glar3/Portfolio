@@ -37,3 +37,7 @@
   color: var(--offWhite);
   background-color: var(--green);
 }
+
+#green-text {
+  color: var(--green);
+}

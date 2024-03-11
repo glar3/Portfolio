@@ -20,7 +20,7 @@ const Portfolio = () => {
         <Project
           id="portfolio"
           className="p1"
-          link="https://glar3.github.io"
+          link="https://keeganportfolio.vercel.app"
           src={PortfolioImage}
           alt="Portfolio"
           title="Portfolio"

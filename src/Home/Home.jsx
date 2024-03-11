@@ -13,10 +13,11 @@ const Home = () => {
           <TypingEffect text="Keegan" time={200} />
         </h1>
         <h2>
-          And I'm a{" "}
-          <span>
-            <TypingEffect text="Web Developer" time={125} />
-          </span>
+          <TypingEffect
+            text={"And I'm a Web Developer"}
+            time={50}
+            id="green-text"
+          />
         </h2>
         <p>
           <TypingEffect
