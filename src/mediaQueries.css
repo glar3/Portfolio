@@ -51,10 +51,6 @@
     background-color: var(--green);
   }
 
-  span {
-    color: var(--green);
-  }
-
   .home {
     display: flex;
     align-items: center;
