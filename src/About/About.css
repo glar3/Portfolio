@@ -50,7 +50,7 @@
 .additional-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease;
 }
 
 .additional-content.expanded {

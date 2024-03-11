@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css";
 import TypingEffect from "./TypingEffect";
 
+import Icon from "./Icon";
+
 const Home = () => {
   return (
     <div id="home" className="home wave">
@@ -26,12 +28,14 @@ const Home = () => {
           />
         </p>
         <ul className="icons">
-          <a href="https://www.linkedin.com/in/keegan-boshoff-dev">
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/glar3">
-            <i className="fa-brands fa-square-github"></i>
-          </a>
+          <Icon
+            className="fa-brands fa-linkedin"
+            link="https://www.linkedin.com/in/keegan-boshoff-dev"
+          />
+          <Icon
+            className="fa-brands fa-square-github"
+            link="https://github.com/glar3"
+          />
         </ul>
         {/* <button className="cv">Download CV</button> */}
       </div>

@@ -24,7 +24,7 @@ const About = () => {
       <h1>
         About <span>Me</span>
       </h1>
-      <h2 id="green-text">Web Developer</h2>
+      <h2 id="green-text">My Stack</h2>
       <div className="dev">
         <div style={{ width: iconSize, height: iconSize }}>
           <TiHtml5 />
