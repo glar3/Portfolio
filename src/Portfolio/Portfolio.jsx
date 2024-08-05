@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import {
   PortfolioImage,
   WeatherImage,
-  ToDoListImage,
+  Calendar,
   RandomQuoteGeneratorImage,
   BMICalculatorImage,
   PianoStoreImage,
@@ -34,7 +34,7 @@ const Portfolio = () => {
           title="Weather"
         />
         <Project
-          id="toDoList"
+          id="Calendar"
           className="p3"
           link="https://glar3.github.io/Calendar/"
           src={Calendar}
