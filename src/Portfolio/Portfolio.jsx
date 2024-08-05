@@ -36,10 +36,10 @@ const Portfolio = () => {
         <Project
           id="toDoList"
           className="p3"
-          link="https://glar3.github.io/To-Do-List/"
-          src={ToDoListImage}
-          alt="To Do List"
-          title="To Do List"
+          link="https://glar3.github.io/Calendar/"
+          src={Calendar}
+          alt="Calendar"
+          title="Calendar"
         />
         <Project
           id="quoteQuoteGenerator"
